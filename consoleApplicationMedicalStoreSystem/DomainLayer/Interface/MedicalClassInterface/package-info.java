@@ -1,0 +1,1 @@
+package consoleApplicationMedicalStoreSystem.DomainLayer.Interface.MedicalClassInterface;

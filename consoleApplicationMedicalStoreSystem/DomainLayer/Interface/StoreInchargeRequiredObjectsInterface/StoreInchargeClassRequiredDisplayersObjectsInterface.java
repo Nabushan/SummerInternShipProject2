@@ -1,0 +1,9 @@
+package consoleApplicationMedicalStoreSystem.DomainLayer.Interface.StoreInchargeRequiredObjectsInterface;
+
+import consoleApplicationMedicalStoreSystem.DomainLayer.UseCases.JoinDisplayClasses.JoinMedicineAndCategoryDisplayClass;
+import consoleApplicationMedicalStoreSystem.DomainLayer.UseCases.MedicineEntityUseCases.MedicineClassDisplayers;
+
+public interface StoreInchargeClassRequiredDisplayersObjectsInterface {
+	static final MedicineClassDisplayers medicineClassDisplayers = new MedicineClassDisplayers();
+	static final JoinMedicineAndCategoryDisplayClass joinMedicineAndCategoryDisplayClass = new JoinMedicineAndCategoryDisplayClass();
+}
